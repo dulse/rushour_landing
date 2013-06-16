@@ -13,7 +13,7 @@
 */
 
 .content {
-  background-color: #eee;
+  background-color: #343736;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
@@ -23,3 +23,20 @@
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
   box-shadow: 0 1px 2px rgba(0,0,0,.15);
 }
+
+.background_image {
+  background-image: url('../images/rushour_logo.jpg');
+
+}
+
+.greeting_text {
+  color: #d4d7d6;
+}
+
+
+
+
+
+
+
+  
