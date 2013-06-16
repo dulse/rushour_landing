@@ -1,3 +1,39 @@
 @import "bootstrap";
 body { padding-top: 60px; }
 @import "bootstrap-responsive";
+
+.btn.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+.btn {
+  color: #ECECEC;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffb643;
+  background-image: -moz-linear-gradient(top, #ffbe57, #ffaa24);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffbe57), to(#ffaa24));
+  background-image: -webkit-linear-gradient(top, #ffbe57, #ffaa24);
+  background-image: -o-linear-gradient(top, #ffbe57, #ffaa24);
+  background-image: linear-gradient(to bottom, #ffbe57, #ffaa24);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffbe57', endColorstr='#ffffaa24', GradientType=0);
+  border-color: #ffaa24 #ffaa24 #d78400;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #ffaa24;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled] {
+  color: #E4E5E5;
+  background-color: #ffaa24;
+  *background-color: #ffa00b;
+}
+.btn:active,
+.btn.active {
+  background-color: #f09300 ;
+}
