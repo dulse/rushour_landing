@@ -2,6 +2,33 @@
 body { padding-top: 60px; }
 @import "bootstrap-responsive";
 
+.greeting_text {
+  color: #d4d7d6;
+}
+
+.main {
+  background: url('rushour_background.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  background-color: rgba(52, 55, 54, 0.75);
+}
+
+.brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #343735;
+}
+
 .btn.active {
   color: rgba(255, 255, 255, 0.75);
 }
