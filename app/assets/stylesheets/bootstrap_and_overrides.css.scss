@@ -2,6 +2,50 @@
 body { padding-top: 60px; }
 @import "bootstrap-responsive";
 
+#page_1
+{
+
+}
+
+#page_2
+{
+  
+}
+
+#page_3
+{
+  
+}
+
+#page_4
+{
+  
+}
+
+.navbar{
+  text-align:center;
+
+}
+
+.navbar-inner{
+  background-color: #343735;
+  border: none;
+  background-image: none;
+}
+
+ul{
+  list-style-type:none;
+  margin:0;
+  padding:0px;
+}
+
+li{
+  display:inline;
+  width:60px;
+  margin:20px;
+  padding:10px;
+}
+
 .greeting_text {
   color: #d4d7d6;
 }
@@ -22,16 +66,6 @@ body { padding-top: 60px; }
 
 }
 
-.brand
-{
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #343735;
-}
 
 .btn.active {
   color: rgba(255, 255, 255, 0.75);
