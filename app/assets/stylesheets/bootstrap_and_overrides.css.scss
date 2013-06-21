@@ -7,7 +7,7 @@ body { padding-top: 60px; }
 }
 
 .main {
-  background: url('rushour_background.png') no-repeat center center fixed; 
+  background: url('rushour_background_small.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,9 +16,10 @@ body { padding-top: 60px; }
 
 .content {
   background-color: rgba(52, 55, 54, 0.75);
-  position: absolute;
   top: 80px;
   bottom:40px;
+  width: 100%;
+
 }
 
 .brand
