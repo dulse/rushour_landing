@@ -68,7 +68,7 @@ class User < ActiveRecord::Base
       :email_address => self.email,
       :double_optin => false,
       :update_existing => true,
-      :send_welcome => true
+      :send_welcome => false
       })
     Rails.logger.info("Subscribed #{self.email} to MailChimp") if result
   rescue Gibbon::MailChimpError => e
