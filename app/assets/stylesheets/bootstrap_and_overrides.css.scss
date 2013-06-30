@@ -2,13 +2,18 @@
 body { padding-top: 60px; }
 @import "bootstrap-responsive";
 
-
-.landing_page_button {
-   text-align: center;
-   bottom: 0;
+.call_to_action{
+  width: 100%;
 }
 
-.greeting_text {
+.landing_page_button {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -71px;
+}
+
+.greeting_content {
   color: #d4d7d6;
   text-align: center; 
   margin-top: 80px;
